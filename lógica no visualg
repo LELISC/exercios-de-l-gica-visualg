@@ -1,0 +1,587 @@
+Algoritmo "CalculoDiasVividos"
+// Disciplina  : [Lógica de Programação com JavaScript]
+// Professor   : Jailson Costa dos Santos
+// Descrição   : Solicitar o ano
+// Autor(a)    : Filipe Lelis
+// Data atual  : 28/03/2022
+Var
+// Seção de Declarações das variáveis 
+ano,meses,dias,diasvividos:inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+Escreval("Digite quantos anos completos você possui")
+leia(ano)
+Escreval("Digite a quantidade de meses completos vividos")
+leia(meses)
+Escreval("Digite a quantidade de dias passadosdo meu ultimo mesversario")
+leia(dias)
+diasvividos<-ano*365+meses*30+dias
+Escreval ("Aquantidade de dias vividos corresponde a:",diasvividos)
+Fimalgoritmo
+
+
+
+Algoritmo "Circulo"
+// Disciplina  : [Lógica de Programação com JavaScript]
+// Professor   : Jailson Costa dos Santos
+// Descrição   : Solicitar a base e altura do triângulo e calcular a area
+// Autor(a)    : Filipe Lelis
+// Data atual  : 28/03/2022
+Var
+// Seção de Declarações das variáveis 
+area, raio, x: real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+
+  { Lendo o valor do raio da circunferência. }
+  escreval("Informe o raio de uma circunferência")
+  leia(raio)
+
+  { Calculando e armazenando a área }
+  x<-raio*3.141592654
+
+  { Mostrando para o usuário a área calculado }
+  escreval("A Área da circunferência é:",x)
+Fimalgoritmo
+
+
+
+Algoritmo "Divisão"
+// Disciplina  :  [Lógica de Programação com Javascript]
+// Professor   : Jailson Costa dos Santos
+// Descrição   : Solicitar dois valores e exibir o resultado
+// Autor(a)    : Filipe Lelis
+// Data atual  : 24/03/2022
+Var
+// Seção de Declarações das variáveis 
+numero1:inteiro
+numero2:inteiro
+dividir:real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+Escreval("Boa Noite Turma do ADS")
+Escreval("Digite um número:")
+Leia (numero1)
+Escreval ("Digite um numero")
+Leia (numero2)
+dividir<-numero1/numero2
+Escreval("A divisão dos valores digitados é:",dividir)
+
+Fimalgoritmo
+
+
+
+Algoritmo "EntreComTimeDeFutebol"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Jailson Costa dos Santos
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Filipe Lelis
+// Data atual  : 18/04/2022
+Var
+   // Seção de Declarações das variáveis
+   time:caracter
+
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   escreval ("Entre com o nome de um time de futebol: ")
+   leia (time)
+   escolha time
+   caso "FLAMENGO", "FLUMINENSE", "VASCO", "BOTAFOGO"
+      escreval ("É um time carioca.")
+   caso "São Paulo", "Palmeiras", "Santos", "Corínthians"
+      escreval ("É um time paulista.")
+   outrocaso
+      escreval ("É de outro estado.")
+   fimescolha
+Fimalgoritmo
+
+
+
+
+Algoritmo "EstruturaDeRepeticaoPara"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Jailson Costa do Santos
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Filipe Lelis
+// Data atual  : 02/05/2022
+Var
+// Seção de Declarações das variáveis 
+contadora:inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+ para contadora de 1 ate 10 passo 1 faca
+ escreval (contadora)
+ fimpara
+
+Fimalgoritmo
+
+
+Algoritmo "ExemploCasoDosMeses"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Jailson Costa dos Santos
+// Descrição   : Exemplo Meses do Ano
+// Autor(a)    : Filipe Lelis
+// Data atual  : 18/04/2022
+Var
+   // Seção de Declarações das variáveis
+   numero:inteiro
+
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   escreval("Digite o número do mes que deseja saber")
+   leia (numero)
+
+   escolha numero
+
+   caso 1
+      Escreval("Janiero")
+   caso 2
+      Escreval("Fevereiro")
+   caso 3
+      Escreval("Março")
+   caso 4
+      Escreval("Abril")
+   caso 5
+      Escreval("Maio")
+   caso 6
+      Escreval("Junho")
+   caso 7
+      Escreval("Julho")
+   caso 8
+      Escreval("Agosto")
+   caso 9
+      Escreval("Setembro")
+   caso 10
+      Escreval("Outubro")
+   caso 11
+      Escreval("Novembro")
+   caso 12
+      Escreval("Dezembro")
+
+   outrocaso
+      Escreval("Não existe dia correspondente")
+   fimescolha
+Fimalgoritmo
+
+FimalgoritmoAlgoritmo "ExemploEscolhaCaso"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Jailson Costa dos Santos
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Filipe Lelis
+// Data atual  : 18/04/2022
+Var
+// Seção de Declarações das variáveis 
+numero:real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+   Escreval("Digite um número:")
+   Leia(numero)
+
+   escolha numero
+
+   caso 1
+      Escreval("Domingo")
+   caso 2
+      Escreval("Segunda")
+   caso 3
+      Escreval("Terça")
+   caso 4
+      Escreval("Quarta")
+   caso 5
+      Escreval("Quinta")
+   caso 6
+      Escreval("Sexta")
+   caso 7
+      Escreval("Sábado")
+   outrocaso
+      Escreval("Não existe dia correspondente")
+   fimescolha
+
+Fimalgoritmo
+
+
+
+Algoritmo "Antecessor"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Jailson Costa dos Santos
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Filipe Lelis
+// Data atual  : 26/03/2022
+Var
+// Seção de Declarações das variáveis 
+Numero, antecessor: inteiro
+
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+
+ escreval("Digite um valor numérico:  ")
+ leia(Numero)
+ antecessor <-Numero-1
+ escreval("O antecessor de ",  Numero," é ",     antecessor)
+
+Fimalgoritmo
+
+
+
+Algoritmo "Retangulo"
+// Disciplina  : [Linguagem e Lógica de Programação com Javascrip]
+// Professor   : Jailson Costa Santos
+// Descrição   : Exercicio 6
+// Autor(a)    : Filipe Lelis
+// Data atual  : 28/03/2022
+Var
+// Seção de Declarações das variáveis 
+base:real
+altura:real
+area:real
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+Escreval("Digite a base: ")
+Leia(base)
+Escreval("Digite a altura: ")
+Leia(altura)
+area<-base*altura
+Escreval("A area do retangulo é :" ,area)//Saída de dados
+Fimalgoritmo
+
+
+
+Algoritmo "Idade"
+// 
+//  
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Filipe Lelis
+// Data atual  : 28/03/2022
+Var
+// Seção de Declarações das variáveis 
+ // declaração de variáveis,
+//uma para cada entrada de dados e uma para o total.
+idade_anos: inteiro
+idade_meses: inteiro
+idade_dias: inteiro
+total_dias : inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+           escreval("Digite Sua Idade:")
+leia(idade_anos) // Efetua a leitura da idade
+escreval("Digite quantos meses:")
+leia(idade_meses) // Efetua a leitura dos meses
+escreval("Digite quantos dias:")
+leia(idade_dias) // Efetua a leitura dos dias
+
+// Converte anos em Dias
+total_dias <- total_dias + (idade_anos*365)
+// Converte meses em dias
+total_dias <- total_dias + (idade_meses*30) // Converte anos em Dias na tela
+total_dias <- total_dias + idade_dias
+// Visualizando
+escreval("O total de dias é = ",total_dias)
+
+
+Fimalgoritmo
+
+
+
+
+Algoritmo "Exercicio08Faccat"
+// Disciplina  : [Linguagem de Programação com JavaScript]
+// Professor   : Jailsom Costa Santos
+// Descrição   :Escreva  um  algoritmo  para  ler  o  número  total  de  eleitores  de  um  município,  o  número  de  votos
+//brancos, nulos e válidos. Calcular e escrever o percentual que cada um representa em relação ao total
+//de eleitores.
+// Autor(a)    : Filipe Lelis
+// Data atual  : 29/03/2022
+Var
+// Seção de Declarações das variáveis 
+totalEleitores:inteiro
+totalBrancos:inteiro
+totalNulos:inteiro
+totalValidos:inteiro
+porcentagemVotosbrancos:real
+porcentagemVotosnulos:real
+porcentagemVotosvalidos:real
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+Escreval("Digite o numero total de eleitores:")
+Leia(totalEleitores)
+Escreval("Digite o numero total de votos brancos")
+Leia(totalBrancos)
+Escreval("Digite o numero total de votos nulos")
+Leia(totalNulos)
+Escreval("Digite o numero total de votos válidos")
+Leia(totalValidos)
+//Area dos calculos
+porcentagemVotosbrancos<-totalBrancos/totalEleitores*100
+porcentagemVotosnulos<-totalNulos/totalEleitores*100
+porcentagemVotosvalidos<-totalValidos/totalEleitores*100
+//Area de exibição
+Escreval("O valor da porcentagem de votos brancos corresponde a:" ,porcentagemVotosbrancos,"%")
+Escreval("O valor da porcentagem de votos brancos corresponde a:" ,porcentagemVotosnulos,"%")
+Escreval("O valor da porcentagem de votos brancos corresponde a:" ,porcentagemVotosvalidos,"%")
+
+Fimalgoritmo
+
+
+
+Algoritmo "Exercicio09Faccat"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Jailson Costa Santos
+// Descrição   :  Escreva um algoritmo para ler o salário mensal atual de um funcionário e o percentual de reajuste.
+// Calcular e escrever o valor do novo salário.
+// Autor(a)    : Nome do(a) aluno(a) Filipe Lelis
+// Data atual  : 29/03/2022
+Var
+// Seção de Declarações das variáveis 
+salarioAtual:Real
+reajuste:real
+salarioFinal:real
+salarionovo:real
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+Escreval("Digite o seu salario atual")
+Leia(salarioAtual)
+Escreval("Digite o seu percentual de reajuste")
+Leia(reajuste)
+salarionovo<-salarioatual/100*reajuste
+salariofinal<-salarioatual+salarionovo
+Escreva("O valor do salario atual é: R$" ,salariofinal)
+Fimalgoritmo
+
+
+
+Algoritmo "custo carro"
+//  Disciplina : [Lógica de Programação e JavaScript]
+//  Professor : Jailson Costa dos Santos
+// Descrição  : Aqui você descreve o que o programa faz! (função)
+// Autor(a)   : Filipe Lelis
+// Data atual : 28/03/2022
+Var
+// Seção de Declarações das variáveis 
+  custoFabrica, custoFinal: real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+escreval("Informe o custo de fábrica do veículo: ")
+leia(custoFabrica)
+custoFinal <- (custoFabrica * 1.45) * 1.28
+escreval("O custo para o consumidor final é de: ",custoFinal)
+
+Fimalgoritmo
+
+
+
+
+Algoritmo "Exercicio11Faccat"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Jailson Costa dos Santos
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    :  Filipe Lelis
+// Data atual  : 31/03/2022
+Var
+// Seção de Declarações das variáveis 
+valorCarroVendido,salarioFixo,valorTotalVendas:real
+numeroCarrosVendidos:inteiro
+salarioFinal:real
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+Escreval("Digite o valor do salário fixo")
+Leia(salarioFixo)
+Escreval("Digite o número de carros vendidos")
+Leia(numeroCarrosVendidos)
+Escreval("Digite o valor ganho por cada carro vendido")
+Leia(valorCarroVendido)
+Escreval("Digite o valor de suas vendas mensais")
+Leia(valorTotalVendas)
+//Processamento - Calculo
+salarioFinal<-salarioFixo+numeroCarrosVendidos*valorCarroVendido+valorTotalVendas*5/100
+//Saída
+Escreval("O salario finao do empreendedor é:" ,salarioFinal)
+
+Fimalgoritmo
+
+
+
+
+Algoritmo "Exercicio12Faccat"
+// Disciplina  :[Linguagem e Lógica de Programação]
+// Professor   : Jailson Costa Santos
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Filipe Lelis
+// Data atual  : 31/03/2022
+Var
+// Seção de Declarações das variáveis 
+celsius,fahrenhit:real
+
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+Escreval("Digite a temperatura em graus Fahrenheit :")
+
+Leia(fahrenheit)
+
+celsius<-(5*fahrenheit-160)/9
+
+Escreval("A temperatura em graus Celsius é :",celsius,"ºC")
+Fimalgoritmo
+
+
+
+Algoritmo "Exercicio13Faccat"
+// Disciplina  : [Linguagem e Lógica de Programação]
+// Professor   : Jailson Costa Santos
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Filipe Lelis
+// Data atual  : 31/03/2022
+Var
+// Seção de Declarações das variáveis 
+nota1,nota2,nota3:real
+mediaponderada:real
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+Escreval("Digite a nota1")
+Leia(nota1)
+Escreval("Digite a nota 2")
+Leia(nota2)
+Escreval("Digite a nota3")
+Leia(nota3)
+mediaponderada<-(nota1*2+nota2*3+nota3*5)/10
+Escreval("A média final do aluno é :" ,mediaponderada)
+Fimalgoritmo
+
+
+
+Algoritmo "Exercicio14Faccat"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Jailson Costa Santos
+// Descrição   : É maior que 10/É menor que 10
+// Autor(a)    : Filipe Lelis
+// Data atual  : 04/04/2022
+Var
+// Seção de Declarações das variáveis 
+numero:inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+ Escreval("Dgite um numero :")
+ Leia(numero)
+ se numero>10 entao
+  Escreval("É maior que 10")
+ senao
+  Escreval("É menos que 10")
+ fimse
+ Fimalgoritmo
+ 
+ 
+ 
+ 
+Algoritmo "Exercicio15Faccat"
+// Disciplina  : [Linguagem e Lógica de Programação]
+// Professor   : Jailson Costa Santos
+// Descrição   : positivo ou negativo
+// Autor(a)    : Filipe Lelis
+// Data atual  : 04/04/2022
+Var
+// Seção de Declarações das variáveis 
+numero:inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+Escreval("Digite um número")
+leia(numero)
+  se numero>=0 entao
+ Escreval("É positivo")
+  senao
+ Escreval("É negativo")
+  fimse
+Fimalgoritmo 
+ 
+
+
+Algoritmo "Exercicio16Faccat"
+// Disciplina  : [Linguagem e Lógica de Programação]
+// Professor   : Jailson Costa Santos
+// Descrição   : número de maçãs compradas
+// Autor(a)    :  Filipe  Lelis
+// Data atual  : 04/04/2022
+Var
+   // Seção de Declarações das variáveis
+   maca:inteiro
+   resultado:real
+
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   Escreval("Digite o número de maçãs compradas")
+   leia(maca)
+   se maca>=12 entao
+      resultado<-1*maca
+      Escreval("As" ,maca,  "Maças deram R$" ,resultado)
+   senao
+      resultado<-1.30*maca
+      Escreval("As" ,maca,  "Maças deram R$" ,resultado)
+   fimse
+Fimalgoritmo
+
+
+
+Algoritmo "Exercicio17Faccat"
+// Disciplina  : [Linguagem e Lógica de Programação]
+// Professor   : Jailson Costa Santos
+// Descrição   : Ler  as  notas  da  1a.  e  2a
+// Autor(a)    : Filipe Lelis
+// Data atual  : 04/04/2022
+Var
+   // Seção de Declarações das variáveis
+   media,nota1,nota2:real
+
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   Escreval("Digite a nota 1")
+   leia(nota1)
+   Escreval("Digite a nota 2")
+   leia(nota2)
+   media<-(nota1+nota2)/2
+   se media>=6 entao
+      Escreval("Aluno foi aprovado, com a média :" ,media)
+   senao
+      Escreval("Aluno foi reprovado com média :" ,media)
+   fimse
+Fimalgoritmo
+
+
+
+
+Algoritmo "Exercicio18Faccat"
+// Disciplina  : [Linguagem e Lógica de Programação]
+// Professor   : Jailson Costa Santos
+// Descrição   : Ler o ano atual e o ano de nascimento de uma pessoa.
+// Autor(a)    : Filipe Lelis
+// Data atual  : 04/04/2022
+Var
+   // Seção de Declarações das variáveis
+   votar,nascimento,anoatual:inteiro
+
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   Escreval("Digite o ano de nascimento")
+   leia(nascimento)
+   Escreval("Digite o ano atual")
+   leia(anoatual)
+   votar<-anoatual-nascimento
+    se votar>15 entao
+   Escreval("A pessoa tem :" ,votar, " Anos então pode votar")
+    senao
+   Escreval("A pessoa tem :" ,votar, " Anos então não pode votar")
+   fimse
+Fimalgoritmo
+
+
+
+
+
